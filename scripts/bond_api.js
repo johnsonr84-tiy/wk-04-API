@@ -1,5 +1,7 @@
 window.onload = function bond_api() {
 
+  let buttonName = ''
+  let index = 0
   const modifier = 'characters/1'
 
   const url = `http://007api.co/api/` + modifier
